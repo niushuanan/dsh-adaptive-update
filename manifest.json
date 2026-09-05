@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "kind": "xiaozhuang-dsh-plugin-export",
-  "createdAt": "2026-08-26T11:46:44.360Z",
-  "sourceCommit": "49b1c5207b1556515752c6bf9e7902c1a5964ad9",
+  "createdAt": "2026-09-05T04:07:04.023Z",
+  "sourceCommit": "e745482d8f5e33497d9ed46a2a88681456024334",
   "plugins": [
     {
       "id": "adaptive-update",
@@ -10,302 +10,212 @@
       "rows": [
         {
           "id": "ui-adaptive-update",
-          "name": "@deepseek-ai/dsh-client-ui-adaptive-update"
+          "name": "./lib/index.js"
         }
       ],
       "sources": [
         {
-          "kind": "repository",
-          "path": "packages/client/ui-adaptive-update"
+          "kind": "product",
+          "path": "plugins/adaptive-update"
         }
       ]
     }
   ],
   "files": [
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/README.md",
-      "size": 4767,
-      "sha256": "7426a8ca7f3d508c0c549d19bfc2795b94f93cfe78443102d6b5a17a2555f369"
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/cordis.patch.yml",
+      "size": 66,
+      "sha256": "e9d72e8acae95d7132500f390831271f84ad26559a9c91c6b0e62a57e934fdb5"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/README.zh.md",
-      "size": 4204,
-      "sha256": "734933c75e58d4089f6c050927ae64e5f894ca479ff5c1d97c318821b8f8e996"
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/lib/client.js",
+      "size": 14135,
+      "sha256": "f632a458ccdee7b4db207824396e3c038f67c7edfc8260ebf492ce6e46575ad3"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/client.js",
-      "size": 13630,
-      "sha256": "3f59ae9772c321aeb29e680d022f412f1f9e617f16176beb7fd174cb0646c0c2"
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/lib/client.js.map",
+      "size": 13503,
+      "sha256": "f8b50ab3d80044d0c8e2e5b049fb4b9500250c6aae850392ff58b9bce6fe213f"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/index.js",
-      "size": 24742,
-      "sha256": "bdb8405b5359f0fdc4107bc2f6973b8e3f0eaadb8bf2e2b7f81f30b8419025ae"
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/lib/index.js",
+      "size": 24627,
+      "sha256": "351cd6547b1108fb5821e25fb34b5270ce334dd3b3577405dc0a67a1975c65d2"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/invariant.js",
-      "size": 723,
-      "sha256": "1f0e2365c8b51738d20efe6d8255c8c61ce74c2ea7349a36210b63245f7cf792"
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/lib/invariant.js",
+      "size": 642,
+      "sha256": "f8727852c804a934a5446a4f14cab9abfb8f215e7ef3365d5f34ec6861ccce89"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/agent-runner.d.ts",
-      "size": 1675,
-      "sha256": "11f8a855e35a837d40a8bdc8ae471794679f45c59323f14d74fa46e4ad35ad3f"
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/lib/worker-entry.js",
+      "size": 52431,
+      "sha256": "b4237231728ab94080b0172c210519b6bffea1e9f98d764a340e07ee3ec38a7b"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/api.d.ts",
-      "size": 1310,
-      "sha256": "4009a4d1543f049abb7328128c8b1fe8e04aea959381ad9fe46e4a840f2c527b"
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/package.json",
+      "size": 2808,
+      "sha256": "e743d64cd0b15907d696bd88bf791cb27fa070d1d023eb0cdf69ec6616f130ab"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/automatic.d.ts",
-      "size": 2264,
-      "sha256": "70e4b31835fc28b9defa3bba0810585fdb1f7c80c7ed1e9c997e2e0c4bcac34a"
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/README.i18n.yaml",
+      "size": 444,
+      "sha256": "ad33c9795a53eba95d6289f94388b40151236105def7b7d9125a998de2b64111"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/client/AdaptiveUpdateSection.d.ts",
-      "size": 404,
-      "sha256": "2911b1deab3875a74074d705797a4a5512e961cb2a5f8a1395ca2c96b8e5efa5"
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/README.md",
+      "size": 4876,
+      "sha256": "cbcad83f690331e7d70582c035a622853c48b1d216f20f1b8687c960289a1324"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/client/index.d.ts",
-      "size": 551,
-      "sha256": "1b7709bd421170da16ec9208478427927d5a57f26de341b157fd2f24cf1cd0a3"
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/README.zh.md",
+      "size": 4296,
+      "sha256": "25ca02166086005a0db17a66c1f186a90ba477aab2ed59929ca45a8d19857061"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/client/locales.d.ts",
-      "size": 510,
-      "sha256": "71b916768de896a42e2a922be86753d978ac20831ee4a84a99dd9924658aef85"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/cutover.d.ts",
-      "size": 2360,
-      "sha256": "de30220305551e94d3096f614614c07e1c3ecfc66fd70c3531d77522a5b416ac"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/engine.d.ts",
-      "size": 2429,
-      "sha256": "9c15cbf5cde0534593ad5951f22a1b6472654e37f9aa9e0a730a610f54f2c283"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/index.d.ts",
-      "size": 1057,
-      "sha256": "5b919eb03554e6d9629d2c6809763e012a0145c07988145ceaa2cd05aee76a69"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/invariant.d.ts",
-      "size": 414,
-      "sha256": "13652e23c2eba6814d37b9623f163733fcb6bd227ff201c19ec12e7ade8d4644"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/process.d.ts",
-      "size": 1448,
-      "sha256": "634fe11de0d6f99f7de90247ef076e9b7b4fdfcb0dc6e33c30732e0e5c8d31b9"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/repository.d.ts",
-      "size": 2458,
-      "sha256": "6f55c7d070c4be51b4b861176552008292067ac0a17aa5f5a3c42e41c92e83e1"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/retention.d.ts",
-      "size": 557,
-      "sha256": "5837995425e864d04bd427d86e17d393fe041be7a94da85390e006eea2898769"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/review.d.ts",
-      "size": 774,
-      "sha256": "288b77cf6ff39fbeae7655994905f23e7b7f8619e63fb9a836089e4ff3eb0265"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/shadow-home.d.ts",
-      "size": 492,
-      "sha256": "df58360464df3c3c5a2ad3ecc4108ab932b790083185534d393c9bf56f49defb"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/snapshot.d.ts",
-      "size": 961,
-      "sha256": "b464581f9c8bbafec3b0d651bb733e731cfb006d182be0abfc78605478556acc"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/state.d.ts",
-      "size": 1615,
-      "sha256": "3476ae48e254f0fec9485acb56414b3701b84342c195a725a75b9f68de4e001f"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/types.d.ts",
-      "size": 2013,
-      "sha256": "365d78a8ff49630e0ec3adbd1001ab8be70a9e9be11b4602ebe5723060f1f51f"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/validation.d.ts",
-      "size": 1605,
-      "sha256": "91fb57b7951784731918a69a73eace468f129104b72b9ffb869e13005c296f43"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/worker-entry.d.ts",
-      "size": 98,
-      "sha256": "62d0c936a4e0d62bcbc2ce27a776b2c62872ef23865c81e1a23fd64d3257d1f1"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/worker-runtime.d.ts",
-      "size": 2243,
-      "sha256": "4734ab6854f58fb6d3fad23bb0c797f4fa1b6139bfd90ab898b639c69049273c"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/types/worker.d.ts",
-      "size": 2170,
-      "sha256": "06053a57d34b02ed1d9ce25063bf5b4017fd671fe01c535a4adb9680074c6eb8"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/lib/worker-entry.js",
-      "size": 52742,
-      "sha256": "19da559646aaf3bb90817d0d0b7a3856d9bddb281ad5afae87c625f8132d7e5c"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/package.json",
-      "size": 2555,
-      "sha256": "867fc804b9e156f281b523a41d2e6ceaee933cf8f092aafc349f717546f150ed"
-    },
-    {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/agent-runner.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/agent-runner.ts",
       "size": 5391,
       "sha256": "c47e40edb399e3054f5969040b0e4d9991adfdf257f97401cbcd64aba288912c"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/api.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/api.ts",
       "size": 3445,
       "sha256": "51963a3448455803cd57a8e5807417da8e8ba21292c97f9270db1ddb684ab9a0"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/automatic.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/automatic.ts",
       "size": 8436,
       "sha256": "272618e79bb174d128b917ddefe10af63e4c760be7fb4809ee84928ee05f211c"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/client/AdaptiveUpdateSection.module.css",
-      "size": 3752,
-      "sha256": "8f0c1ff2c3ddd5a28d71f2047c60ed0d08dc8374b6db1cc7210eb84d872a2b15"
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/client/AdaptiveUpdateSection.module.css",
+      "size": 3563,
+      "sha256": "bb8bb521ff9465291c92c51c5d413968b18b5de22bc6032eb32443e7dddabe66"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/client/AdaptiveUpdateSection.tsx",
-      "size": 6168,
-      "sha256": "32a198827b19afb13ad2bbed7ffddc3e425d8e81ce05ebf7cf756018d5a1f0aa"
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/client/AdaptiveUpdateSection.tsx",
+      "size": 6252,
+      "sha256": "27fa5257bedc77a19944c772859ca37ac8cd2abaaf15ef7997cbeb2041823dae"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/client/index.ts",
-      "size": 1063,
-      "sha256": "945f04291fc859a3619f7fa31b589348ae16977448cf532adb4157f5f71ce47f"
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/client/index.ts",
+      "size": 1368,
+      "sha256": "48e8a8b6561ef0e3234ec773a3461b2273dce3865cb3524d4a65e5a08dfb8de3"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/client/locales.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/client/locales.ts",
       "size": 447,
       "sha256": "e59072ebaabd33da9f4cbc13f207544e32096fad9d913dbb570972150e0ee73b"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/css-modules.d.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/css-modules.d.ts",
       "size": 123,
       "sha256": "e28410d74a0d763364c04fa690c2ca2202ad3019c74f8f5205e8dc6cba69c02f"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/cutover.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/cutover.ts",
       "size": 5067,
       "sha256": "e350893a2f56c39871131b3d2e8fe13635506c953b9aff0036cb4b83f3bc01c1"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/engine.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/engine.ts",
       "size": 5107,
       "sha256": "06301baff9d4d4ffe30ec0dc636e6834f5a3e31fe4072b7692d0af7add78cf42"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/index.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/index.ts",
       "size": 5221,
       "sha256": "1305e0f75f6fa9cb189171211ada01bb7da797bd4fc4b44bc5113f4c3cd954d2"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/invariant.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/invariant.ts",
       "size": 842,
       "sha256": "d340eed8f8c4afa467d974aa0337bee1388431183173f6144ff0823461dac04a"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/process.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/process.ts",
       "size": 3634,
       "sha256": "fb80271468e77fede8cf9dc8d09e534c422d0af29566ab49746815a6dec58dbd"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/repository.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/repository.ts",
       "size": 9402,
       "sha256": "439bcf4565080a99d083fec1fa0ddc958289ac18e2ef8a9a174040c76bbe000f"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/retention.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/retention.ts",
       "size": 1966,
       "sha256": "eb7e812509be610bf663b3e7c8c5143f6f0d857d725c4403b39a41195f228668"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/review.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/review.ts",
       "size": 1949,
       "sha256": "c8456ed89a9e25b2dda619f4e1588323abdde5ea717c4715f50e127429412e66"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/shadow-home.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/shadow-home.ts",
       "size": 1435,
       "sha256": "a270296a59dad081ff110eb1fa3fb25f3e02e43c061164cda69fe1a1ac7534e8"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/snapshot.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/snapshot.ts",
       "size": 3040,
       "sha256": "fd307df31731348b64a94853ba752bf5c79fee704ca32c3e290f9a83c2cfa3e8"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/state.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/state.ts",
       "size": 5251,
       "sha256": "5ac930261d953a1a2d12434269f90fbbdc431fc8cda410ae6dd565c6365d067f"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/types.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/types.ts",
       "size": 1979,
       "sha256": "7790c423933b57465c2edceb8ee5c1ef60c9edf33d8b749d13250d136b9fcd18"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/validation.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/validation.ts",
       "size": 2912,
       "sha256": "20bd6f5aaefafd98f90ebecca31be32f4a544b9512fcf7fbba2a232eae69640e"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/worker-entry.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/worker-entry.ts",
       "size": 261,
       "sha256": "12cc6147653e6c9689a2ee6b1771e9ce1da8ff62bba26b8e37432680af32717c"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/worker-runtime.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/worker-runtime.ts",
       "size": 18568,
       "sha256": "2b06ef38add07b9d316d6ae257ce723659fabe1c847f13935c4e7408ec028258"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/src/worker.ts",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/worker.ts",
       "size": 5320,
       "sha256": "40a5a0d31e9bdb81cfed78a5d4c48767bf04ca05fcf70f2ffe5794e851f777f6"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/tsconfig.client.json",
-      "size": 445,
-      "sha256": "9b9e5e17d94e448b553ba508fa6abb490d95658224f23dd22c815245fcfa109c"
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/tsconfig.client.json",
+      "size": 597,
+      "sha256": "a4e03218357df5bf51534e22adacb88f2ce3f9c57df6fc00609b17ed6cc40438"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/tsconfig.host.json",
-      "size": 490,
-      "sha256": "48dd6775f16ae47d6e693bfc8379b9440b1fe82255e48d7dc2d784f63cfce379"
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/tsconfig.host.json",
+      "size": 517,
+      "sha256": "69e06ac5c71290eb419393e336b49e6f9a4c35603428649b13ecdefc0bb1ae75"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/tsconfig.json",
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/tsconfig.json",
       "size": 122,
       "sha256": "9ae2773ce422b78211f4ed8c2d4f6adb6737a9d0f33c4c392b1ea01a41bec759"
     },
     {
-      "path": "payload/adaptive-update/repository/packages/client/ui-adaptive-update/tsdown.config.ts",
-      "size": 440,
-      "sha256": "e4471e902afffe7f10ecd7964dcf890aea9e9c76c1da6bfb7ff49cc854e34228"
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/tsdown.config.ts",
+      "size": 441,
+      "sha256": "276fc58112c06a3b601c6f5d43e645259787206e31c4fc68a626189122893878"
+    },
+    {
+      "path": "payload/shared/settings-icons.patch",
+      "size": 3863,
+      "sha256": "77e0d4dd0bb02e1946301320ec813972f5cfc0054c408c5e5dd44690e5f692a4"
     }
   ],
   "excludes": [
@@ -318,7 +228,9 @@
     "conversation history",
     "user settings"
   ],
+  "sourceRepository": "https://github.com/niushuanan/xiaozhuang-dsh",
   "repository": "https://github.com/niushuanan/dsh-adaptive-update",
-  "releaseTag": "xiaozhuang-v0.4.2",
-  "sourceRepository": "https://github.com/niushuanan/xiaozhuang-dsh"
+  "compatibilityPatches": [
+    "payload/shared/settings-icons.patch"
+  ]
 }

@@ -8,9 +8,11 @@ Check upstream manually or every six hours, use a narrowly scoped agent for comp
 
 <p align="center"><img src="docs/10-adaptive-update.webp" alt="Adaptive update status and check-now action" width="800"></p>
 
+Current master ships complete native plugin folders and preserves each Settings entry's original plugin-owned icon. Remove its folder to uninstall the capability. See [INSTALL.md](INSTALL.md) for shared compatibility patches and installation checks.
+
 ## Install
 
-1. Open [Releases](https://github.com/niushuanan/dsh-adaptive-update/releases/latest) and download the attached ZIP.
+1. Choose **Code → Download ZIP** for current master; older Releases do not include this repair.
 2. Give the ZIP to an AI that can read and modify the target DSH project.
 3. Tell the AI: **Read AGENTS.md, INSTALL.md, and manifest.json first. Install only this plugin and preserve existing plugins, data, conversations, attachments, and settings.**
 4. The installing AI merges the code and Cordis rows into the target version and validates only the entry points directly owned by this plugin.
@@ -24,4 +26,4 @@ Check upstream manually or every six hours, use a narrowly scoped agent for comp
 
 ## Source and license
 
-This repository is a one-way distribution mirror of [Xiaozhuang DSH](https://github.com/niushuanan/xiaozhuang-dsh), not an independent development source. It is synchronized from main-repository commit [`49b1c5207b`](https://github.com/niushuanan/xiaozhuang-dsh/commit/49b1c5207b1556515752c6bf9e7902c1a5964ad9) and released as [`xiaozhuang-v0.4.2`](https://github.com/niushuanan/dsh-adaptive-update/releases/tag/xiaozhuang-v0.4.2). Licensed under the [MIT License](LICENSE).
+This repository is a one-way distribution mirror of [Xiaozhuang DSH](https://github.com/niushuanan/xiaozhuang-dsh), not an independent development source. It is synchronized from main-repository commit [`e745482d8f`](https://github.com/niushuanan/xiaozhuang-dsh/commit/e745482d8f5e33497d9ed46a2a88681456024334) and released as [`xiaozhuang-v0.4.2`](https://github.com/niushuanan/dsh-adaptive-update/releases/tag/xiaozhuang-v0.4.2). Licensed under the [MIT License](LICENSE).
