@@ -1,8 +1,12 @@
 {
   "schemaVersion": 1,
   "kind": "xiaozhuang-dsh-plugin-export",
-  "createdAt": "2026-09-05T04:07:04.023Z",
-  "sourceCommit": "e745482d8f5e33497d9ed46a2a88681456024334",
+  "createdAt": "2026-10-06T18:40:04.058033+00:00",
+  "sourceCommit": "efbbbc6a1977cf4559bf306221533eb16393664c",
+  "sourceRepository": "https://github.com/niushuanan/xiaozhuang-dsh",
+  "repository": "https://github.com/niushuanan/dsh-adaptive-update",
+  "targetHarness": "0.2.1-alpha.1",
+  "upgradeWorkflow": "https://github.com/oh-my-dsh/dsh-plugin-upgrade-skill/",
   "plugins": [
     {
       "id": "adaptive-update",
@@ -18,45 +22,11 @@
           "kind": "product",
           "path": "plugins/adaptive-update"
         }
-      ]
+      ],
+      "version": "0.1.2-rc.1"
     }
   ],
   "files": [
-    {
-      "path": "payload/adaptive-update/product/plugins/adaptive-update/cordis.patch.yml",
-      "size": 66,
-      "sha256": "e9d72e8acae95d7132500f390831271f84ad26559a9c91c6b0e62a57e934fdb5"
-    },
-    {
-      "path": "payload/adaptive-update/product/plugins/adaptive-update/lib/client.js",
-      "size": 14135,
-      "sha256": "f632a458ccdee7b4db207824396e3c038f67c7edfc8260ebf492ce6e46575ad3"
-    },
-    {
-      "path": "payload/adaptive-update/product/plugins/adaptive-update/lib/client.js.map",
-      "size": 13503,
-      "sha256": "f8b50ab3d80044d0c8e2e5b049fb4b9500250c6aae850392ff58b9bce6fe213f"
-    },
-    {
-      "path": "payload/adaptive-update/product/plugins/adaptive-update/lib/index.js",
-      "size": 24627,
-      "sha256": "351cd6547b1108fb5821e25fb34b5270ce334dd3b3577405dc0a67a1975c65d2"
-    },
-    {
-      "path": "payload/adaptive-update/product/plugins/adaptive-update/lib/invariant.js",
-      "size": 642,
-      "sha256": "f8727852c804a934a5446a4f14cab9abfb8f215e7ef3365d5f34ec6861ccce89"
-    },
-    {
-      "path": "payload/adaptive-update/product/plugins/adaptive-update/lib/worker-entry.js",
-      "size": 52431,
-      "sha256": "b4237231728ab94080b0172c210519b6bffea1e9f98d764a340e07ee3ec38a7b"
-    },
-    {
-      "path": "payload/adaptive-update/product/plugins/adaptive-update/package.json",
-      "size": 2808,
-      "sha256": "e743d64cd0b15907d696bd88bf791cb27fa070d1d023eb0cdf69ec6616f130ab"
-    },
     {
       "path": "payload/adaptive-update/product/plugins/adaptive-update/README.i18n.yaml",
       "size": 444,
@@ -73,9 +43,39 @@
       "sha256": "25ca02166086005a0db17a66c1f186a90ba477aab2ed59929ca45a8d19857061"
     },
     {
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/cordis.patch.yml",
+      "size": 66,
+      "sha256": "e9d72e8acae95d7132500f390831271f84ad26559a9c91c6b0e62a57e934fdb5"
+    },
+    {
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/lib/client.js",
+      "size": 15127,
+      "sha256": "50fc416738f03ec4a6e92d55067fc62cb2b7465414ca138249abd1a4670bce14"
+    },
+    {
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/lib/client.js.map",
+      "size": 14595,
+      "sha256": "8edfa76f9a3f8e787dcae8b58d78036946ffde496df32eed395a90ba43b200be"
+    },
+    {
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/lib/index.js",
+      "size": 24627,
+      "sha256": "351cd6547b1108fb5821e25fb34b5270ce334dd3b3577405dc0a67a1975c65d2"
+    },
+    {
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/lib/worker-entry.js",
+      "size": 52091,
+      "sha256": "8201a422cf9ea0065745493cb7295deb723a12ad2f98caa40d6e5033178691be"
+    },
+    {
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/package.json",
+      "size": 2615,
+      "sha256": "6539f8aa30c47d007752a4d9ec9e267c06a11e68ff2a5d6a39b6e42f9d2bf0d6"
+    },
+    {
       "path": "payload/adaptive-update/product/plugins/adaptive-update/src/agent-runner.ts",
-      "size": 5391,
-      "sha256": "c47e40edb399e3054f5969040b0e4d9991adfdf257f97401cbcd64aba288912c"
+      "size": 5121,
+      "sha256": "44503b9d2de9c01418e80e09b774b4a301d743f168e6f11ff8905a8842a70258"
     },
     {
       "path": "payload/adaptive-update/product/plugins/adaptive-update/src/api.ts",
@@ -86,6 +86,11 @@
       "path": "payload/adaptive-update/product/plugins/adaptive-update/src/automatic.ts",
       "size": 8436,
       "sha256": "272618e79bb174d128b917ddefe10af63e4c760be7fb4809ee84928ee05f211c"
+    },
+    {
+      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/client/AdaptiveUpdateIcon.tsx",
+      "size": 815,
+      "sha256": "9bbc5fedea1e734b66e1c3825b62682f08deaf494a1b6ff0271d4a35d6e96603"
     },
     {
       "path": "payload/adaptive-update/product/plugins/adaptive-update/src/client/AdaptiveUpdateSection.module.css",
@@ -99,8 +104,8 @@
     },
     {
       "path": "payload/adaptive-update/product/plugins/adaptive-update/src/client/index.ts",
-      "size": 1368,
-      "sha256": "48e8a8b6561ef0e3234ec773a3461b2273dce3865cb3524d4a65e5a08dfb8de3"
+      "size": 1338,
+      "sha256": "89db90b134482735815eaae353ee79c03985f87a15961c45b5037643c7014b49"
     },
     {
       "path": "payload/adaptive-update/product/plugins/adaptive-update/src/client/locales.ts",
@@ -126,11 +131,6 @@
       "path": "payload/adaptive-update/product/plugins/adaptive-update/src/index.ts",
       "size": 5221,
       "sha256": "1305e0f75f6fa9cb189171211ada01bb7da797bd4fc4b44bc5113f4c3cd954d2"
-    },
-    {
-      "path": "payload/adaptive-update/product/plugins/adaptive-update/src/invariant.ts",
-      "size": 842,
-      "sha256": "d340eed8f8c4afa467d974aa0337bee1388431183173f6144ff0823461dac04a"
     },
     {
       "path": "payload/adaptive-update/product/plugins/adaptive-update/src/process.ts",
@@ -194,43 +194,58 @@
     },
     {
       "path": "payload/adaptive-update/product/plugins/adaptive-update/tsconfig.client.json",
-      "size": 597,
-      "sha256": "a4e03218357df5bf51534e22adacb88f2ce3f9c57df6fc00609b17ed6cc40438"
+      "size": 715,
+      "sha256": "63e6bb198ccd705b04dbb58bac3617c85605768a923a1c9e90e0c0d26fc20097"
     },
     {
       "path": "payload/adaptive-update/product/plugins/adaptive-update/tsconfig.host.json",
-      "size": 517,
-      "sha256": "69e06ac5c71290eb419393e336b49e6f9a4c35603428649b13ecdefc0bb1ae75"
+      "size": 510,
+      "sha256": "3edd57bd071a98abeaa06a2005de9fe91d833ca417d7b852a8bc5cc82473e96d"
     },
     {
       "path": "payload/adaptive-update/product/plugins/adaptive-update/tsconfig.json",
-      "size": 122,
-      "sha256": "9ae2773ce422b78211f4ed8c2d4f6adb6737a9d0f33c4c392b1ea01a41bec759"
+      "size": 142,
+      "sha256": "ad1b25d36ea100440140e543e2a2af188178934da74eadce1b27ef14e91b335e"
     },
     {
       "path": "payload/adaptive-update/product/plugins/adaptive-update/tsdown.config.ts",
-      "size": 441,
-      "sha256": "276fc58112c06a3b601c6f5d43e645259787206e31c4fc68a626189122893878"
+      "size": 421,
+      "sha256": "c25495176f3a1943313a4bc9b64999285bce613d9062e5cdd71c239d2aca7c44"
     },
     {
-      "path": "payload/shared/settings-icons.patch",
-      "size": 3863,
-      "sha256": "77e0d4dd0bb02e1946301320ec813972f5cfc0054c408c5e5dd44690e5f692a4"
+      "path": "payload/shared/deliverable-file-path.patch",
+      "size": 2379,
+      "sha256": "65120b70cad2e196a4bee54911eced508f45818dc7dac1f1d7fd4a9de1ff3c73"
+    },
+    {
+      "path": "payload/shared/native-plugin-loading.patch",
+      "size": 23851,
+      "sha256": "136f4832023c8422906bbd86ede896ecb26d066931abf59db6fe2d094d4f2325"
+    },
+    {
+      "path": "payload/shared/session-state-compatibility.patch",
+      "size": 19961,
+      "sha256": "58bc1b86e2a347d0e29477877f96190379b04dc07bb3f37bd7f0f37fc3a3fef2"
+    },
+    {
+      "path": "payload/shared/settings-and-ui-slots.patch",
+      "size": 73183,
+      "sha256": "ce217a393adba9a3c3d1692ea14868a7d8f3d4e936a3895c216ae1f7d136a176"
     }
+  ],
+  "compatibilityPatches": [
+    "payload/shared/native-plugin-loading.patch",
+    "payload/shared/settings-and-ui-slots.patch",
+    "payload/shared/session-state-compatibility.patch",
+    "payload/shared/deliverable-file-path.patch"
   ],
   "excludes": [
     "node_modules",
-    "Git metadata",
-    "tests",
-    "caches",
     "credentials",
     "sessions",
-    "conversation history",
-    "user settings"
-  ],
-  "sourceRepository": "https://github.com/niushuanan/xiaozhuang-dsh",
-  "repository": "https://github.com/niushuanan/dsh-adaptive-update",
-  "compatibilityPatches": [
-    "payload/shared/settings-icons.patch"
+    "attachments",
+    "user settings",
+    "caches",
+    "test outputs"
   ]
 }

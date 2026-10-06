@@ -4,11 +4,29 @@ window.__ModuleLoader__.load({
 		var module = { exports: {} };
 		var exports = module.exports;
 		Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
-		let _deepseek_ai_dsh_client_ui_primitives = require("@deepseek-ai/dsh-client-ui-primitives");
-		let react = require("react");
 		let react_jsx_runtime = require("react/jsx-runtime");
-		//#region \0dsh-css:/private/tmp/dsh-publish-20260905.X1Ok1K/source/plugins/adaptive-update/src/client/AdaptiveUpdateSection.module.css.mjs
-		const css = ".h7Orva_root{width:100%;color:var(--dsw-alias-label-primary);flex-direction:column;gap:18px;display:flex}.h7Orva_phase{background:var(--dsw-alias-bg-module-platform);color:var(--dsw-alias-label-secondary);border-radius:999px;padding:4px 10px;font-size:12px;line-height:18px}.h7Orva_automatic{justify-content:flex-start;display:flex}.h7Orva_automaticCapsule{border:1px solid var(--dsw-alias-border-l2);background:var(--dsw-alias-bg-module-platform);min-height:36px;color:var(--dsw-alias-label-secondary);font:inherit;cursor:pointer;border-radius:999px;align-items:center;gap:8px;padding:0 12px;font-size:13px;line-height:20px;display:inline-flex}.h7Orva_automaticCapsule[aria-checked=true]{border-color:var(--dsw-alias-button-primary-fill);background:var(--dsw-alias-button-primary-fill);color:var(--dsw-alias-label-primary-foreground)}.h7Orva_automaticCapsule:disabled{opacity:.55;cursor:default}.h7Orva_automaticCapsule:focus-visible{box-shadow:0 0 0 2px var(--dsw-alias-border-l3);outline:none}.h7Orva_automaticDot{opacity:.5;background:currentColor;border-radius:50%;flex:none;width:7px;height:7px}.h7Orva_automaticCapsule[aria-checked=true] .h7Orva_automaticDot{opacity:1}.h7Orva_automaticCapsule strong{font-size:12px;font-weight:600}.h7Orva_commits{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;display:grid}.h7Orva_commits>div{background:var(--dsw-alias-bg-module-platform);border-radius:12px;flex-direction:column;gap:8px;padding:14px 16px;display:flex}.h7Orva_commits span,.h7Orva_notice{color:var(--dsw-alias-label-secondary);font-size:13px;line-height:20px}.h7Orva_commits code{font-size:13px}.h7Orva_review{flex-direction:column;gap:12px;display:flex}.h7Orva_metrics{flex-wrap:wrap;gap:8px;display:flex}.h7Orva_metrics span{background:var(--dsw-alias-bg-module-platform);color:var(--dsw-alias-label-secondary);border-radius:8px;padding:6px 10px;font-size:12px}.h7Orva_checks{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0;padding:0;list-style:none;display:grid}.h7Orva_checks li{color:var(--dsw-alias-label-secondary);align-items:center;gap:8px;font-size:13px;display:flex}.h7Orva_dot{background:var(--dsw-alias-label-tertiary);border-radius:50%;flex:none;width:7px;height:7px}.h7Orva_checks li[data-status=passed] .h7Orva_dot{background:var(--dsw-alias-state-success-primary)}.h7Orva_checks li[data-status=failed] .h7Orva_dot{background:var(--dsw-alias-state-error-primary)}.h7Orva_checks li[data-status=running] .h7Orva_dot{background:var(--dsw-alias-button-primary-fill)}.h7Orva_notice,.h7Orva_error{margin:0}.h7Orva_error{color:var(--dsw-alias-state-error-primary);font-size:13px;line-height:20px}.h7Orva_actions{justify-content:flex-end;display:flex}.h7Orva_actions button{background:var(--dsw-alias-button-primary-fill);height:36px;color:var(--dsw-alias-label-primary-foreground);font:inherit;cursor:pointer;border:none;border-radius:18px;padding:0 16px;font-size:14px}.h7Orva_actions button:hover:not(:disabled){background:var(--dsw-alias-button-primary-hover)}.h7Orva_actions button:disabled{opacity:.45;cursor:default}.h7Orva_actions button:focus-visible{box-shadow:0 0 0 2px var(--dsw-alias-border-l3);outline:none}@media (width<=720px){.h7Orva_commits,.h7Orva_checks{grid-template-columns:1fr}}";
+		let react = require("react");
+		let _deepseek_ai_dsh_client_ui_primitives = require("@deepseek-ai/dsh-client-ui-primitives");
+		//#region src/client/AdaptiveUpdateIcon.tsx
+		/** Retains the plugin's original continuous adaptation artwork. */
+		const IconAdaptiveUpdate = ({ size = 16, className }) => /* @__PURE__ */ (0, react_jsx_runtime.jsxs)("svg", {
+			width: size,
+			height: size,
+			className,
+			viewBox: "0 0 16 16",
+			fill: "none",
+			xmlns: "http://www.w3.org/2000/svg",
+			children: [/* @__PURE__ */ (0, react_jsx_runtime.jsx)("path", {
+				d: "M8 1.25a6.75 6.75 0 0 1 5.64 3.04l.42-.94 1.19.53-1.15 2.57a.65.65 0 0 1-.86.33l-2.57-1.15.53-1.19.99.44A5.45 5.45 0 0 0 8 2.55a5.43 5.43 0 0 0-4.11 1.87l-.98-.86A6.73 6.73 0 0 1 8 1.25Zm4.11 10.33.98.86A6.73 6.73 0 0 1 8 14.75a6.75 6.75 0 0 1-5.64-3.04l-.42.94-1.19-.53 1.15-2.57a.65.65 0 0 1 .86-.33l2.57 1.15-.53 1.19-.99-.44A5.45 5.45 0 0 0 8 13.45a5.43 5.43 0 0 0 4.11-1.87Z",
+				fill: "currentColor"
+			}), /* @__PURE__ */ (0, react_jsx_runtime.jsx)("path", {
+				d: "m8 5 3 3-3 3-3-3 3-3Zm0 1.7L6.7 8 8 9.3 9.3 8 8 6.7Z",
+				fill: "currentColor"
+			})]
+		});
+		//#endregion
+		//#region \0dsh-css:/Users/zhuanghongkai/Desktop/迭代DSH/xiaozhuang-dsh-upgrade-20261006/plugins/adaptive-update/src/client/AdaptiveUpdateSection.module.css.mjs
+		const css = ".oQUOOG_root{width:100%;color:var(--dsw-alias-label-primary);flex-direction:column;gap:18px;display:flex}.oQUOOG_phase{background:var(--dsw-alias-bg-module-platform);color:var(--dsw-alias-label-secondary);border-radius:999px;padding:4px 10px;font-size:12px;line-height:18px}.oQUOOG_automatic{justify-content:flex-start;display:flex}.oQUOOG_automaticCapsule{border:1px solid var(--dsw-alias-border-l2);background:var(--dsw-alias-bg-module-platform);min-height:36px;color:var(--dsw-alias-label-secondary);font:inherit;cursor:pointer;border-radius:999px;align-items:center;gap:8px;padding:0 12px;font-size:13px;line-height:20px;display:inline-flex}.oQUOOG_automaticCapsule[aria-checked=true]{border-color:var(--dsw-alias-button-primary-fill);background:var(--dsw-alias-button-primary-fill);color:var(--dsw-alias-label-primary-foreground)}.oQUOOG_automaticCapsule:disabled{opacity:.55;cursor:default}.oQUOOG_automaticCapsule:focus-visible{box-shadow:0 0 0 2px var(--dsw-alias-border-l3);outline:none}.oQUOOG_automaticDot{opacity:.5;background:currentColor;border-radius:50%;flex:none;width:7px;height:7px}.oQUOOG_automaticCapsule[aria-checked=true] .oQUOOG_automaticDot{opacity:1}.oQUOOG_automaticCapsule strong{font-size:12px;font-weight:600}.oQUOOG_commits{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;display:grid}.oQUOOG_commits>div{background:var(--dsw-alias-bg-module-platform);border-radius:12px;flex-direction:column;gap:8px;padding:14px 16px;display:flex}.oQUOOG_commits span,.oQUOOG_notice{color:var(--dsw-alias-label-secondary);font-size:13px;line-height:20px}.oQUOOG_commits code{font-size:13px}.oQUOOG_review{flex-direction:column;gap:12px;display:flex}.oQUOOG_metrics{flex-wrap:wrap;gap:8px;display:flex}.oQUOOG_metrics span{background:var(--dsw-alias-bg-module-platform);color:var(--dsw-alias-label-secondary);border-radius:8px;padding:6px 10px;font-size:12px}.oQUOOG_checks{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0;padding:0;list-style:none;display:grid}.oQUOOG_checks li{color:var(--dsw-alias-label-secondary);align-items:center;gap:8px;font-size:13px;display:flex}.oQUOOG_dot{background:var(--dsw-alias-label-tertiary);border-radius:50%;flex:none;width:7px;height:7px}.oQUOOG_checks li[data-status=passed] .oQUOOG_dot{background:var(--dsw-alias-state-success-primary)}.oQUOOG_checks li[data-status=failed] .oQUOOG_dot{background:var(--dsw-alias-state-error-primary)}.oQUOOG_checks li[data-status=running] .oQUOOG_dot{background:var(--dsw-alias-button-primary-fill)}.oQUOOG_notice,.oQUOOG_error{margin:0}.oQUOOG_error{color:var(--dsw-alias-state-error-primary);font-size:13px;line-height:20px}.oQUOOG_actions{justify-content:flex-end;display:flex}.oQUOOG_actions button{background:var(--dsw-alias-button-primary-fill);height:36px;color:var(--dsw-alias-label-primary-foreground);font:inherit;cursor:pointer;border:none;border-radius:18px;padding:0 16px;font-size:14px}.oQUOOG_actions button:hover:not(:disabled){background:var(--dsw-alias-button-primary-hover)}.oQUOOG_actions button:disabled{opacity:.45;cursor:default}.oQUOOG_actions button:focus-visible{box-shadow:0 0 0 2px var(--dsw-alias-border-l3);outline:none}@media (width<=720px){.oQUOOG_commits,.oQUOOG_checks{grid-template-columns:1fr}}";
 		const tagId = "@deepseek-ai/dsh-client-ui-adaptive-update/AdaptiveUpdateSection.module.css";
 		if (typeof document !== "undefined" && document.querySelector("style[data-plugin-css=" + JSON.stringify(tagId) + "]") === null) {
 			const tag = document.createElement("style");
@@ -18,19 +36,19 @@ window.__ModuleLoader__.load({
 			document.head.appendChild(tag);
 		}
 		var AdaptiveUpdateSection_module_css_default = {
-			"actions": "h7Orva_actions",
-			"automatic": "h7Orva_automatic",
-			"automaticCapsule": "h7Orva_automaticCapsule",
-			"automaticDot": "h7Orva_automaticDot",
-			"checks": "h7Orva_checks",
-			"commits": "h7Orva_commits",
-			"dot": "h7Orva_dot",
-			"error": "h7Orva_error",
-			"metrics": "h7Orva_metrics",
-			"notice": "h7Orva_notice",
-			"phase": "h7Orva_phase",
-			"review": "h7Orva_review",
-			"root": "h7Orva_root"
+			"actions": "oQUOOG_actions",
+			"automatic": "oQUOOG_automatic",
+			"automaticCapsule": "oQUOOG_automaticCapsule",
+			"automaticDot": "oQUOOG_automaticDot",
+			"checks": "oQUOOG_checks",
+			"commits": "oQUOOG_commits",
+			"dot": "oQUOOG_dot",
+			"error": "oQUOOG_error",
+			"metrics": "oQUOOG_metrics",
+			"notice": "oQUOOG_notice",
+			"phase": "oQUOOG_phase",
+			"review": "oQUOOG_review",
+			"root": "oQUOOG_root"
 		};
 		//#endregion
 		//#region src/client/AdaptiveUpdateSection.tsx
@@ -239,8 +257,8 @@ window.__ModuleLoader__.load({
 			}, AdaptiveUpdateSection));
 			ctx.slots.inject("settings.section.icon", () => ctx.slots.register({
 				name: "settings.section.icon",
-				id: "adaptive-update"
-			}, _deepseek_ai_dsh_client_ui_primitives.IconAdaptiveUpdateOutline16));
+				key: "adaptive-update"
+			}, IconAdaptiveUpdate));
 		}
 		//#endregion
 		exports.apply = apply;

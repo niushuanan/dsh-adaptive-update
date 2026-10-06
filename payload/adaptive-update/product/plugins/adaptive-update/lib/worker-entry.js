@@ -94,7 +94,6 @@ function requireCommand(label, result) {
 /** Stable-version headless Agent runner for candidate compatibility and adaptation. */
 const ADAPTIVE_AGENT_MODEL = "deepseek-v4-flash-vision-exp";
 const MODEL_PATCH_FILE = "adaptive-agent-model.cordis.yml";
-const MODEL_SETTINGS_FILE = "adaptive-agent-model.settings.yaml";
 /** A stable Agent turn that exited without successful completion. */
 var StableAgentRunError = class extends Error {
 	/** Whether the bounded Agent command reached its configured deadline. */
@@ -153,28 +152,18 @@ async function mountStableDependencies(stableRoot, targetRoot) {
 	}
 }
 async function writeModelOverlay(shadowHome) {
-	const settingsPath = join(shadowHome, MODEL_SETTINGS_FILE);
 	const patchPath = join(shadowHome, MODEL_PATCH_FILE);
-	await writeFile(settingsPath, [
-		"agent-default-model:",
-		"  provider: deepseek-official",
-		`  model: ${ADAPTIVE_AGENT_MODEL}`,
-		""
-	].join("\n"), {
-		encoding: "utf8",
-		mode: 384
-	});
 	await writeFile(patchPath, [
-		"- id: settings",
+		"- id: agent-default-model",
 		"  config:",
-		`    path: ${JSON.stringify(settingsPath)}`,
-		"    watch: false",
+		"    provider: deepseek-official",
+		`    model: ${ADAPTIVE_AGENT_MODEL}`,
 		""
 	].join("\n"), {
 		encoding: "utf8",
 		mode: 384
 	});
-	await Promise.all([chmod(settingsPath, 384), chmod(patchPath, 384)]);
+	await chmod(patchPath, 384);
 	return patchPath;
 }
 /**
